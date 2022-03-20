@@ -1,5 +1,5 @@
-const firstname = "Patrick"
-const lastname = "Pellicciotta"
+const firstname = "John"
+const lastname = "Snow"
 const city = "Laval"
 const age = 18
 const isMarried = "No"

@@ -2,10 +2,23 @@ let base = 20
 let height = 10
 console.log(0.5 * base * height)
 
-let a = parseFloat(prompt("5"))
-let b = parseFloat(prompt("4"))
-let c = parseFloat(prompt("3"))
-console.log(a + b + c)
+let firstname = "Patrick"
+let lastname = "Pellicciotta"
+if(firstname > 7){
+    console.log("My names is long")
+}
+else{
+    console.log("My name is short")
+}
+if (firstname < lastname){
+    console.log("My first name, Patrick is shoter than my last name, Pellicciotta")
+}else{
+    console.log("My Last name, Pellicciotta is longer than my first name, Patrick")
+}
 
-let length = parseFloat(prompt("Length"))
-let width = parseFloat(prompt("Width"))
+let myAge = 250
+let yourAge = 25
+
+if(myAge > yourAge){
+    console.log(myAge - yourAge)
+}
